@@ -1,16 +1,16 @@
 # Brief: Grip aerodinámico
 
 ## Concepto
-La carga aerodinámica añade grip que crece con la velocidad y cae al frenar.
+Carga extra del aire que crece con la velocidad y cae al frenar.
 
 ## Física
-Downforce ∝ velocidad² (aprox.): al desacelerar, pierdes soporte justo cuando quieres más freno.
+Más velocidad → más downforce → más grip; al desacelerar, ese soporte desaparece.
 
 ## Ejemplo
-Coche de alta carga: pico inicial muy alto; hay que soltar antes de lo que dicta el grip mecánico.
+Monoplaza alado: pico altísimo al inicio; hay que soltar al bajar de velocidad.
 
 ## Ejercicio
-Compara 2 frenadas en el mismo punto a distinta velocidad de llegada.
+Misma marca, dos velocidades de llegada; compara cuándo debes soltar.
 
 ## Errores típicos
-- Mantener presión de alta velocidad hasta el turn-in lento
+- Mantener el pico de alta velocidad hasta el turn-in lento

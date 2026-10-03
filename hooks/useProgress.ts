@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import {
+  PROGRESS_EVENT,
   getCompletedLessons,
   markLessonCompleted,
   toggleLessonCompleted,
@@ -11,16 +12,24 @@ export function useProgress() {
   const [completed, setCompleted] = useState<string[]>([]);
 
   useEffect(() => {
-    setCompleted(getCompletedLessons());
+    function sync() {
+      setCompleted(getCompletedLessons());
+    }
+
+    sync();
 
     function onStorage(event: StorageEvent) {
       if (event.key === "apex-school-progress") {
-        setCompleted(getCompletedLessons());
+        sync();
       }
     }
 
     window.addEventListener("storage", onStorage);
-    return () => window.removeEventListener("storage", onStorage);
+    window.addEventListener(PROGRESS_EVENT, sync);
+    return () => {
+      window.removeEventListener("storage", onStorage);
+      window.removeEventListener(PROGRESS_EVENT, sync);
+    };
   }, []);
 
   const markComplete = useCallback((part: string, slug: string) => {

@@ -1,16 +1,17 @@
 # Brief: Manos ligeras al frenar
 
 ## Concepto
-No pelear el volante mientras el eje delantero se carga.
+Al frenar duro, manos relajadas: el coche se equilibra solo en lateral.
 
 ## Física
-Manos duras añaden ángulo o fuerza que roba grip longitudinal.
+Agarre fuerte mete ángulo residual y roba grip longitudinal.
 
 ## Ejemplo
-Pico de freno con hombros tensos: el coche se desvía y «corriges» con más pelea.
+Asociación: pico de freno = manos ligeras, al mismo tiempo.
 
 ## Ejercicio
-10 frenadas en recta con agarre 3/10; penaliza si giras más de 5°.
+10 frenadas en recta; falla si aprietas el aro o giras de más.
 
 ## Errores típicos
-- Usar el volante para equilibrar un cuerpo mal sentado
+- Death grip en el volante
+- Seguir girando al empezar a frenar

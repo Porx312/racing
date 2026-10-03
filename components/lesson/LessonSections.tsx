@@ -46,6 +46,7 @@ type LessonSectionProps = {
   children?: React.ReactNode;
 };
 
+/** Legacy boxed section — used by older Module I MDX tags. */
 export function LessonSection({ id, children }: LessonSectionProps) {
   const t = useTranslations("lesson");
   const meta = sectionMeta[id];
@@ -63,7 +64,7 @@ export function LessonSection({ id, children }: LessonSectionProps) {
           {t(meta.titleKey)}
         </h2>
       </header>
-      <div className="px-5 py-5 text-neutral-300">
+      <div className="px-5 py-5 text-base leading-7 text-neutral-300">
         {children ?? (
           <p className="text-sm leading-7 text-neutral-500">{t(meta.hintKey)}</p>
         )}
@@ -76,19 +77,14 @@ export function EmptyLessonSections() {
   const t = useTranslations("lesson");
 
   return (
-    <div className="space-y-3">
-      <div className="border-l-4 border-green-500 bg-neutral-950 px-5 py-4">
-        <p className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-green-500">
-          {t("comingSoonTitle")}
-        </p>
-        <p className="mt-2 text-sm leading-6 text-neutral-400">
-          {t("comingSoonBody")}
-        </p>
-      </div>
-      <LessonSection id="what" />
-      <LessonSection id="why" />
-      <LessonSection id="example" />
-      <LessonSection id="exercise" />
+    <div className="max-w-3xl border-l-4 border-green-500 bg-neutral-950 px-5 py-6">
+      <p className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-green-500">
+        {t("comingSoonTitle")}
+      </p>
+      <p className="mt-3 text-base leading-7 text-neutral-400">
+        {t("comingSoonBody")}
+      </p>
+      <p className="mt-4 text-sm text-neutral-600">{t("articleComingSoonHint")}</p>
     </div>
   );
 }

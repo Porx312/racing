@@ -27,13 +27,13 @@
     "stepExercise": "Exercise",
     "stepExerciseBody": "Speed, pressure, and a measurable procedure.",
     "curriculumTitle": "Planned syllabus",
-    "curriculumBody": "Six parts based on The Motor Racing Book (Suellio Almeida), plus mountain roads and setup. Guidelines and braking already have published content.",
+    "curriculumBody": "Six parts based on The Motor Racing Book (Suellio Almeida), plus mountain roads and setup. Guidelines and Module I (braking) are full articles.",
     "viewPart": "Open part",
     "comingSoon": "Coming soon"
   },
   "learn": {
     "title": "Syllabus",
-    "subtitle": "Guidelines and braking already have published lessons. The rest of the syllabus ships in batches.",
+    "subtitle": "Guidelines and Module I in article format. The rest of the syllabus ships in batches.",
     "breadcrumb": "Syllabus",
     "lessons": "{count, plural, one {# lesson} other {# lessons}}",
     "comingSoon": "Coming soon",
@@ -41,11 +41,13 @@
     "openMenu": "Syllabus",
     "closeMenu": "Close syllabus",
     "toc": "Contents",
-    "done": "Done"
+    "done": "Done",
+    "progressCount": "{done}/{total}"
   },
   "lesson": {
     "comingSoonTitle": "This lesson is not published yet",
-    "comingSoonBody": "The shell is ready. When the MDX file exists, these four sections will fill themselves.",
+    "comingSoonBody": "When we publish the MDX article, the full content will appear here.",
+    "articleComingSoonHint": "Format: article with the idea, why it works, on-track example, and exercise.",
     "sectionWhat": "What it is",
     "sectionWhy": "Why it works",
     "sectionExample": "Example",

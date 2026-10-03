@@ -1,17 +1,27 @@
 # Brief: {title}
 
-## Concepto
-Una frase: qué es.
+## Lead
+2–3 frases: qué aprenderás y por qué importa hoy.
 
-## Física
-Peso / grip / rotación — lo mínimo para entender el porqué.
+## La idea
+Definición + contexto.
 
-## Ejemplo
-Curva o situación concreta (reutilizable en la lección).
+## Por qué funciona
+Física / hábitos / grip.
 
-## Ejercicio
-Pasos medibles: velocidad, % freno, procedimiento.
+## En pista
+Curva o sesión concreta (reutilizable en el módulo).
 
 ## Errores típicos
 - Error 1
 - Error 2
+
+## Ejercicio
+Pasos medibles: reps, %, qué anotar.
+
+## Media
+- YouTube ID (opcional):
+- Figura / diagrama (opcional):
+
+## Siguiente
+Siguiente lección del temario.

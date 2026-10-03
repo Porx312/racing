@@ -1,16 +1,17 @@
 # Brief: Poca vs mucha carga al frenar
 
 ## Concepto
-El perfil de presión cambia según haya poca o mucha aero.
+El perfil de presión cambia: poca aero = pico ≈ terminal; mucha aero = pico alto y soltado fuerte.
 
 ## Física
-Poca carga: pico más bajo, release más suave. Mucha carga: pico alto, release más agresivo.
+Con mucha carga el techo cae con la velocidad; con poca, el techo es más plano.
 
 ## Ejemplo
-Touring vs fórmula en la misma recta de boxes.
+Turismo vs fórmula en la misma recta de boxes.
 
 ## Ejercicio
-Dos coches o dos setups (ala alta/baja); misma marca; compara forma del pedal.
+Dibuja dos curvas presión-tiempo tras sentir ambos perfiles (o ala alta/baja).
 
 ## Errores típicos
 - Copiar el estilo de un coche a otro
+- Soltar de más o de menos en alta carga

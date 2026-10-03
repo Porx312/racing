@@ -1,17 +1,17 @@
 # Brief: Visión de evaluación
 
 ## Concepto
-Mientras frenas y giras, lees grip y trayectoria para corregir a tiempo.
+Un vistazo corto al morro para comprobar posición; luego vuelves a planificar.
 
 ## Física
-La evaluación usa el margen restante: si solo miras el apex, no ves el deslizamiento.
+Plan ≠ realidad: sin check, acumulas error de línea metro a metro.
 
 ## Ejemplo
-Notas que el morro empuja 10 m antes del apex y abres un grado el volante.
+¿Estás sobre el piano interior como querías? Check de 0,1 s y vuelve la mirada adelante.
 
 ## Ejercicio
-En 8 frenadas, di «ok / push / slide» al llegar al turn-in.
+En un sector, cuenta cuántos ciclos plan→check haces por vuelta.
 
 ## Errores típicos
-- Evaluar solo después de la curva
-- Corregir sin haber nombrado el síntoma
+- Solo planificar y nunca mirar dónde estás
+- Quedarte mirando el bordillo y olvidar el horizonte

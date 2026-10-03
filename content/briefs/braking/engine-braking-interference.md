@@ -1,17 +1,17 @@
 # Brief: Freno motor e interferencia
 
 ## Concepto
-El freno motor suma o resta estabilidad según eje motriz y marcha.
+El freno motor suma frenada solo en el eje motriz y mueve el bias efectivo.
 
 ## Física
-En RWD, cortar gas puede rotar el coche; en FWD, puede empujar el morro o estabilizar según el caso.
+RWD: más efecto atrás al bajar marcha. FWD: más estrés delante.
 
 ## Ejemplo
-Reducir a 2ª demasiado pronto en entrada: zaga nerviosa antes del trail.
+Downshift temprano a 2ª en entrada: zaga nerviosa (RWD) o morro saturado (FWD).
 
 ## Ejercicio
-Misma curva: 5 entradas con downshift temprano vs 5 con downshift tardío.
+Misma curva: downshift temprano vs tardío; elige el más estable.
 
 ## Errores típicos
 - Ignorar el eje motriz
-- Blip inconsistente que mete tirones
+- Blip inconsistente

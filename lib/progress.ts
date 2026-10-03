@@ -1,4 +1,5 @@
 const STORAGE_KEY = "apex-school-progress";
+export const PROGRESS_EVENT = "apex-school-progress";
 
 export type ProgressState = {
   completed: string[];
@@ -43,6 +44,7 @@ function writeProgress(state: ProgressState): void {
   cachedCompleted = state.completed;
   cacheReady = true;
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  window.dispatchEvent(new Event(PROGRESS_EVENT));
 }
 
 export function getCompletedLessons(): string[] {

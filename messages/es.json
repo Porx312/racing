@@ -27,13 +27,13 @@
     "stepExercise": "Ejercicio",
     "stepExerciseBody": "Velocidad, presión y un procedimiento medible.",
     "curriculumTitle": "Temario previsto",
-    "curriculumBody": "Seis partes basadas en The Motor Racing Book (Suellio Almeida), más montaña y setup. Guías y frenada ya tienen contenido publicado.",
+    "curriculumBody": "Seis partes basadas en The Motor Racing Book (Suellio Almeida), más montaña y setup. Guías y Módulo I (frenada) ya están en formato artículo.",
     "viewPart": "Abrir parte",
     "comingSoon": "Próximamente"
   },
   "learn": {
     "title": "Temario",
-    "subtitle": "Guías y frenada ya tienen lecciones publicadas. El resto del temario llega por lotes.",
+    "subtitle": "Guías y Módulo I en formato artículo. El resto del temario llega por lotes.",
     "breadcrumb": "Temario",
     "lessons": "{count, plural, one {# lección} other {# lecciones}}",
     "comingSoon": "Próximamente",
@@ -41,11 +41,13 @@
     "openMenu": "Temario",
     "closeMenu": "Cerrar temario",
     "toc": "Contenido",
-    "done": "Hecha"
+    "done": "Hecha",
+    "progressCount": "{done}/{total}"
   },
   "lesson": {
     "comingSoonTitle": "Esta lección aún no está publicada",
-    "comingSoonBody": "El esqueleto ya está listo. Cuando exista el archivo MDX, estas cuatro secciones se llenarán solas.",
+    "comingSoonBody": "Cuando publiquemos el artículo MDX verás el contenido completo aquí.",
+    "articleComingSoonHint": "Formato: artículo con idea, por qué, ejemplo en pista y ejercicio.",
     "sectionWhat": "Qué es",
     "sectionWhy": "Por qué funciona",
     "sectionExample": "Ejemplo",

@@ -79,16 +79,16 @@ export default async function LessonPage({ params }: LessonPageProps) {
         </span>
       </div>
 
-      <h1 className="mt-3 font-[family-name:var(--font-display)] text-4xl uppercase leading-none text-white sm:text-5xl">
+      <h1 className="mt-3 max-w-3xl font-[family-name:var(--font-display)] text-4xl uppercase leading-none text-white sm:text-5xl">
         {item.lesson.title[locale]}
       </h1>
-      <p className="mt-4 max-w-2xl text-neutral-400">
+      <p className="mt-4 max-w-3xl text-lg leading-8 text-neutral-400">
         {item.lesson.summary[locale]}
       </p>
 
-      <div className="mt-8">
+      <div className="mt-10">
         {isPublished && mdx ? (
-          <div className="space-y-3">
+          <div className="lesson-article max-w-3xl pb-4">
             <MDXRemote source={mdx.content} components={lessonMdxComponents} />
           </div>
         ) : (

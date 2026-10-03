@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import type { Locale } from "@/i18n/routing";
 import { flattenLessons } from "@/lib/curriculum";
 
+/** Kept for legacy boxed MDX (Module I). */
 export const lessonSectionIds = ["what", "why", "example", "exercise"] as const;
 
 export type LessonSectionId = (typeof lessonSectionIds)[number];
@@ -15,20 +16,13 @@ export type LessonFrontmatter = {
   part: string;
   slug: string;
   status: LessonPublishStatus;
-  sections: LessonSectionId[];
+  youtube?: string;
 };
 
 export type LoadedLessonMdx = {
   frontmatter: LessonFrontmatter;
   content: string;
 };
-
-function isSectionId(value: unknown): value is LessonSectionId {
-  return (
-    typeof value === "string" &&
-    (lessonSectionIds as readonly string[]).includes(value)
-  );
-}
 
 function parseFrontmatter(data: unknown): LessonFrontmatter | null {
   if (typeof data !== "object" || data === null) {
@@ -41,16 +35,17 @@ function parseFrontmatter(data: unknown): LessonFrontmatter | null {
   if (typeof record.slug !== "string") return null;
 
   const status = record.status === "published" ? "published" : "coming-soon";
-  const rawSections = Array.isArray(record.sections)
-    ? record.sections.filter(isSectionId)
-    : [...lessonSectionIds];
+  const youtube =
+    typeof record.youtube === "string" && record.youtube.length > 0
+      ? record.youtube
+      : undefined;
 
   return {
     title: record.title,
     part: record.part,
     slug: record.slug,
     status,
-    sections: rawSections.length > 0 ? rawSections : [...lessonSectionIds],
+    youtube,
   };
 }
 

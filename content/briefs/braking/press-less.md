@@ -1,17 +1,17 @@
 # Brief: Técnica Press Less
 
 ## Concepto
-Pico alto temprano y luego soltar con intención mientras cae la velocidad.
+Suelta el freno dejando de empujar (músculos «abajo»), no levantando el pie.
 
 ## Física
-Al frenar pierdes aero y margen; «press less» evita saturar el eje delantero.
+El pedal vuelve solo; al «press less» controlas el release con precisión.
 
 ## Ejemplo
-100% inicial → release progresivo hacia el turn-in, no un escalón tarde.
+100 → 99 → 98… sintiendo relajar el mismo grupo muscular.
 
 ## Ejercicio
-Misma marca; 8 frenadas con release consciente vs 8 «aguantando».
+Release ultra lento primero; luego acelera la velocidad del soltado.
 
 ## Errores típicos
-- Pico flojo y luego apretar más cerca de la curva
-- Soltar en un escalón único por pánico
+- Pensar en «levantar» el pie
+- Soltar en un escalón por pánico

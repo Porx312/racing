@@ -1,17 +1,17 @@
 # Brief: Visión de planificación
 
 ## Concepto
-Mirar lejos para decidir frenada y turn-in antes de llegar.
+Mirar ~1 s por delante del coche para decidir inputs con antelación útil.
 
 ## Física
-Si miras el morro, reaccionas tarde; el input llega cuando el grip ya está comprometido.
+Sin tiempo visual, el freno y el turn-in se improvisan cuando el grip ya está comprometido.
 
 ## Ejemplo
-En una recta a 250 km/h miras la marca de 100 m, no el capó.
+Recta a alta velocidad: miras la marca de frenada y el inicio de la zona, no el capó.
 
 ## Ejercicio
-5 vueltas nombrando en voz alta la siguiente referencia 2 s antes de usarla.
+5 vueltas nombrando la siguiente referencia ~1 s antes de usarla.
 
 ## Errores típicos
-- Mirar el apex desde demasiado lejos sin checkpoints
-- Olvidar la salida al planificar la entrada
+- Mirar demasiado lejos (información inútil)
+- Mirar solo el morro

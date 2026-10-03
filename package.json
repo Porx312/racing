@@ -10,7 +10,8 @@
     "content:scaffold": "tsx scripts/scaffold-lessons.ts",
     "content:briefs": "tsx scripts/scaffold-briefs.ts",
     "content:scaffold:all": "tsx scripts/scaffold-lessons.ts && tsx scripts/scaffold-briefs.ts",
-    "content:publish:batch1": "tsx scripts/publish-batch-1.ts"
+    "content:publish:batch1": "tsx scripts/publish-batch-1.ts",
+    "content:publish:module1": "tsx scripts/publish-module-1.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
