@@ -593,7 +593,7 @@ Recta de boxes, 0° de volante, freno hasta parado.
       example:
         "Entras a 180 km/h en la recta de boxes, volante a 0°, y buscas la máxima desaceleración sin bloqueo. La referencia no es el tiempo: es la calidad del pico.",
       exercise:
-        "10 paradas completas desde la misma velocidad. Anota bloqueos/ABS (sí/no) y el % aproximado del pico limpio. Meta: 8/10 sin bloqueo y con variación de pico <10%.",
+        "10 paradas completas desde la misma velocidad. Anota bloqueos/ABS (sí/no) y el % aproximado del pico limpio. Meta: 8/10 sin bloqueo y con variación de pico menor al 10%.",
     },
     en: {
       concept:
@@ -602,7 +602,7 @@ Recta de boxes, 0° de volante, freno hasta parado.
       example:
         "You arrive at 180 km/h on the pit straight, wheel at 0°, and hunt maximum deceleration without lockup. The reference is not time—it is peak quality.",
       exercise:
-        "10 full stops from the same speed. Log lockups/ABS (yes/no) and approximate clean peak %. Goal: 8/10 with no lockup and peak variation <10%.",
+        "10 full stops from the same speed. Log lockups/ABS (yes/no) and approximate clean peak %. Goal: 8/10 with no lockup and peak variation under 10%.",
     },
   },
   {
