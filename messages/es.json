@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Apex School",
+    "description": "Aprende sim racing por conceptos: explicación, ejemplo y ejercicio. El temario ya está; los artículos llegan después."
+  },
+  "nav": {
+    "learn": "Temario",
+    "home": "Inicio",
+    "openMenu": "Abrir menú",
+    "skip": "Saltar al contenido"
+  },
+  "home": {
+    "eyebrow": "Escuela de sim racing",
+    "title": "Aprende a ir más rápido. Un concepto cada vez.",
+    "subtitle": "No es una enciclopedia de artículos. Es un camino: concepto, por qué funciona, un ejemplo y un ejercicio. Luego, el siguiente concepto.",
+    "cta": "Ver el temario",
+    "ctaSecondary": "Cómo se aprende",
+    "methodEyebrow": "El método",
+    "methodTitle": "Concepto → explicación → ejemplo → ejercicio",
+    "methodBody": "Cada lección usa la misma estructura. Cuando publiquemos el contenido, entrarás, practicarás y pasarás a la siguiente. Ahora puedes recorrer el esqueleto vacío.",
+    "stepConcept": "Concepto",
+    "stepConceptBody": "Qué es, en una definición que puedes usar en pista.",
+    "stepWhy": "Por qué",
+    "stepWhyBody": "Peso, carga del neumático, grip y rotación del coche.",
+    "stepExample": "Ejemplo",
+    "stepExampleBody": "Una curva concreta, no un caso abstracto.",
+    "stepExercise": "Ejercicio",
+    "stepExerciseBody": "Velocidad, presión y un procedimiento medible.",
+    "curriculumTitle": "Temario previsto",
+    "curriculumBody": "Seis partes basadas en The Motor Racing Book (Suellio Almeida), más montaña y setup. Guías y frenada ya tienen contenido publicado.",
+    "viewPart": "Abrir parte",
+    "comingSoon": "Próximamente"
+  },
+  "learn": {
+    "title": "Temario",
+    "subtitle": "Guías y frenada ya tienen lecciones publicadas. El resto del temario llega por lotes.",
+    "breadcrumb": "Temario",
+    "lessons": "{count, plural, one {# lección} other {# lecciones}}",
+    "comingSoon": "Próximamente",
+    "emptyNotice": "Las lecciones publicadas muestran concepto, por qué, ejemplo y ejercicio. El resto sigue en coming-soon.",
+    "openMenu": "Temario",
+    "closeMenu": "Cerrar temario",
+    "toc": "Contenido",
+    "done": "Hecha"
+  },
+  "lesson": {
+    "comingSoonTitle": "Esta lección aún no está publicada",
+    "comingSoonBody": "El esqueleto ya está listo. Cuando exista el archivo MDX, estas cuatro secciones se llenarán solas.",
+    "sectionWhat": "Qué es",
+    "sectionWhy": "Por qué funciona",
+    "sectionExample": "Ejemplo",
+    "sectionExercise": "Ejercicio",
+    "sectionWhatHint": "Definición corta del concepto.",
+    "sectionWhyHint": "Física, grip y transferencia de peso.",
+    "sectionExampleHint": "Una curva o situación concreta.",
+    "sectionExerciseHint": "Pasos medibles para practicarlo.",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "endOfPath": "Fin del temario",
+    "startOfPath": "Inicio del temario",
+    "onTrack": "En el camino",
+    "published": "Publicada",
+    "markDone": "Marcar",
+    "completed": "Hecha"
+  },
+  "footer": {
+    "tagline": "Aprendizaje progresivo de sim racing.",
+    "rights": "Apex School"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "Esa ruta no forma parte del temario.",
+    "cta": "Volver al inicio"
+  }
+}

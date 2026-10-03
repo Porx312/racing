@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Apex School",
+    "description": "Learn sim racing one concept at a time: explanation, example, then exercise. The syllabus is ready; articles come later."
+  },
+  "nav": {
+    "learn": "Syllabus",
+    "home": "Home",
+    "openMenu": "Open menu",
+    "skip": "Skip to content"
+  },
+  "home": {
+    "eyebrow": "Sim racing school",
+    "title": "Get faster. One concept at a time.",
+    "subtitle": "This is not an encyclopedia of articles. It is a path: concept, why it works, an example, and an exercise. Then the next concept.",
+    "cta": "Open the syllabus",
+    "ctaSecondary": "How learning works",
+    "methodEyebrow": "The method",
+    "methodTitle": "Concept → explanation → example → exercise",
+    "methodBody": "Every lesson uses the same structure. When we publish the content, you will enter, practice, and move on. Right now you can walk the empty shell.",
+    "stepConcept": "Concept",
+    "stepConceptBody": "What it is, in a definition you can use on track.",
+    "stepWhy": "Why",
+    "stepWhyBody": "Weight, tire load, grip, and car rotation.",
+    "stepExample": "Example",
+    "stepExampleBody": "A specific corner, not an abstract case.",
+    "stepExercise": "Exercise",
+    "stepExerciseBody": "Speed, pressure, and a measurable procedure.",
+    "curriculumTitle": "Planned syllabus",
+    "curriculumBody": "Six parts based on The Motor Racing Book (Suellio Almeida), plus mountain roads and setup. Guidelines and braking already have published content.",
+    "viewPart": "Open part",
+    "comingSoon": "Coming soon"
+  },
+  "learn": {
+    "title": "Syllabus",
+    "subtitle": "Guidelines and braking already have published lessons. The rest of the syllabus ships in batches.",
+    "breadcrumb": "Syllabus",
+    "lessons": "{count, plural, one {# lesson} other {# lessons}}",
+    "comingSoon": "Coming soon",
+    "emptyNotice": "Published lessons show concept, why, example, and exercise. The rest stay coming-soon.",
+    "openMenu": "Syllabus",
+    "closeMenu": "Close syllabus",
+    "toc": "Contents",
+    "done": "Done"
+  },
+  "lesson": {
+    "comingSoonTitle": "This lesson is not published yet",
+    "comingSoonBody": "The shell is ready. When the MDX file exists, these four sections will fill themselves.",
+    "sectionWhat": "What it is",
+    "sectionWhy": "Why it works",
+    "sectionExample": "Example",
+    "sectionExercise": "Exercise",
+    "sectionWhatHint": "A short definition of the concept.",
+    "sectionWhyHint": "Physics, grip, and weight transfer.",
+    "sectionExampleHint": "A concrete corner or situation.",
+    "sectionExerciseHint": "Measurable steps to practice it.",
+    "prev": "Previous",
+    "next": "Next",
+    "endOfPath": "End of syllabus",
+    "startOfPath": "Start of syllabus",
+    "onTrack": "On the path",
+    "published": "Published",
+    "markDone": "Mark done",
+    "completed": "Done"
+  },
+  "footer": {
+    "tagline": "Progressive sim racing learning.",
+    "rights": "Apex School"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That route is not part of the syllabus.",
+    "cta": "Back to home"
+  }
+}
